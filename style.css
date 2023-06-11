@@ -1,0 +1,30 @@
+
+.correcto{/*Clase para el estilo del input cuando este bien*/
+    color: rgb(0, 0, 0);
+    border: 3px solid rgba(71, 200, 93);
+    opacity: 1;
+}
+
+.incorrecto{/*Clase para el estilo del input cuando este mal*/
+    color: rgb(0, 0, 0);
+    border: 3px solid, rgba(219, 90, 90);
+    opacity: 1;
+}
+
+.imagenCorrecto {/*Clase para el estilo del icono cuando este bien*/
+    background-image: url('images/success-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 260px;
+    background-position-y: 4px;
+    z-index: 1;
+}
+
+.imagenIncorrecto{/*Clase para el estilo del icono cuando este mal*/
+    background-image: url('images/error-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 260px;
+    background-position-y: 4px;
+    z-index: 1; 
+}
